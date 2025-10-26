@@ -386,15 +386,3 @@ To allow guests to leave reviews and ratings for properties they have booked and
 * Prevent duplicate reviews per booking.
 
 ---
-
-## **General Backend Requirements**
-
-| **Category**       | **Requirement**                                 |
-| ------------------ | ----------------------------------------------- |
-| **Architecture**   | RESTful API following MVC pattern               |
-| **Database**       | MySQL/PostgreSQL using SQLAlchemy ORM           |
-| **Authentication** | JWT-based authentication                        |
-| **Error Handling** | Unified JSON error response structure           |
-| **Testing**        | Unit and integration tests required             |
-| **Documentation**  | Swagger or Postman API documentation            |
-| **Deployment**     | Containerized (Docker) and hosted on Render/AWS |
